@@ -4,7 +4,7 @@ import tw from 'twrnc';
 import NavOptions from '../components/NavOptions';
 import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete';
 import { GOOGLE_PLAY_KEY} from "@env";
-import {setDestination,setOrgin} from "../slices/navSlice";
+import {setDestination,setOrigin} from "../slices/navSlice";
 import { useDispatch } from 'react-redux';
 
 
@@ -36,7 +36,7 @@ const HomeScreen = () => {
         }
        }
        onPress={(data,details=null)=>{
-        dispatch(setOrgin({
+        dispatch(setOrigin({
           location:details.geometry.location,
           description:data.description
         }))
