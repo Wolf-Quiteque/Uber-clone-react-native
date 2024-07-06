@@ -1,9 +1,10 @@
 {
   "expo": {
-    "name": "uber",
-    "slug": "uber",
+    "name": "voyage",
+    "slug": "voyage",
     "version": "1.0.0",
     "orientation": "portrait",
+    "owner": "mq3",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
@@ -25,6 +26,17 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "92d3ddee-c8a5-4ee5-a223-d8e8bc6737f9"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/92d3ddee-c8a5-4ee5-a223-d8e8bc6737f9"
     }
   }
 }
